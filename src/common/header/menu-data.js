@@ -6,9 +6,6 @@ const menu_data = [
       link: "/",
       sub_menus: [
         { link: "/", title: "Home One" },
-        { link: "/home-two", title: "Home Two" },
-        { link: "/home-three", title: "Home Three" },
-        { link: "/home-four", title: "Home Four" },
       ],
     },
     {
