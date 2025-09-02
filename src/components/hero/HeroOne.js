@@ -30,7 +30,7 @@ const HeroOne = () => {
                                             </defs>
                                             </svg>
                                         </span>
-                                        <br /> SEO Solution.</h2>
+                                        <br /> SEO Tits Solution.</h2>
                                     <p>Maecenas egret risks qualm Cohabiter diapaus magna egret vehicular <br /> pellentesque lobortis iaculis felis viverra sit amet.</p>
                                     <form action="#">
                                         <div className="hero__input">
