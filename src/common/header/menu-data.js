@@ -4,9 +4,6 @@ const menu_data = [
       has_dropdown: true,
       title: "Home",
       link: "/",
-      sub_menus: [
-        { link: "/", title: "Home One" },
-      ],
     },
     {
       id: 2,
