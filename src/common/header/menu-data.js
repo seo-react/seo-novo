@@ -20,7 +20,7 @@ const menu_data = [
       link: "/testimonial",
     },
      {
-      id: 6,
+      id: 12,
       has_dropdown: false,
       title: "Team",
       link: "/team",
