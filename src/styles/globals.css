@@ -1,0 +1,107 @@
+/* Deixa o header fixo no topo */
+#header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1020;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  /* Adiciona a linha azulada no topo */
+  border-top: 4px solid #9b2fe7; /* roxo (moderno) */
+}
+
+
+
+/* Area do blog details*/
+.tagcloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tag-cloud-link {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #eee;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.tag-cloud-link:hover {
+  background: #0070f3;
+  color: white;
+}
+
+.widget {
+  margin-bottom: 50px;
+}
+
+.widget-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.widget-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background: #0070f3;
+}
+
+.category-list li {
+  margin-bottom: 10px;
+}
+
+.category-list a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.category-list a:hover {
+  color: #0070f3;
+}
+
+.category-list span {
+  float: right;
+  color: #999;
+}
+
+.recent-posts-list li {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.post-img img {
+  border-radius: 6px;
+}
+
+.post-content h5 {
+  margin: 0 0 5px 0;
+  font-size: 1rem;
+}
+
+.post-content h5 a {
+  color: #333;
+  font-weight: 500;
+}
+
+.post-content h5 a:hover {
+  color: #0070f3;
+}
+
+.post-content span {
+  font-size: 0.9rem;
+  color: #666;
+}

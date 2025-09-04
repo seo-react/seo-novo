@@ -11,9 +11,7 @@ const BlogCategory = () => {
       try {
         const res = await fetch('https://cms.seorocket.com.br/wp-json/wp/v2/categories?per_page=10');
         const data = await res.json();
-        // Filtra a categoria "Sem categoria" (geralmente ID 1)
-        const filtered = data.filter(cat => cat.id !== 1);
-        setCategories(filtered);
+        setCategories(data.filter(cat => cat.id !== 1)); // Remove "Sem categoria"
         setLoading(false);
       } catch (error) {
         console.error('Erro ao carregar categorias:', error);
@@ -23,14 +21,7 @@ const BlogCategory = () => {
     fetchCategories();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="widget mb-50">
-        <h4 className="widget-title">Categories</h4>
-        <p>Carregando...</p>
-      </div>
-    );
-  }
+  if (loading) return <div className="widget"><h4>Carregando categorias...</h4></div>;
 
   return (
     <div className="widget mb-50">

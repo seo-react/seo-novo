@@ -1,8 +1,10 @@
+import '../styles/globals.css'; // ✅ Importação correta
 import React, {useEffect} from 'react';
 import { animationCreate } from "../../utils/utils";
 import ScrollToTop from "react-scroll-to-top";
 import { FaAngleUp } from 'react-icons/fa';
 import Head from "next/head";
+
 
 function MyApp({ Component, pageProps }) {
     useEffect(() => {

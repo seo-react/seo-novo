@@ -1,7 +1,7 @@
 import SEO from "../common/seo/Seo";
 import HeaderOne from "../common/header/HeaderOne";
 import Breadcrumb from "../common/breadcrumb/Breadcrumb";
-import BlogDetails from "../components/blog/BlogDetails";
+import BlogDetails from "../components/blog/[slug]";
 import FooterThree from "../common/footer/FooterThree";
 
 export default function BlogDetailsPage() {

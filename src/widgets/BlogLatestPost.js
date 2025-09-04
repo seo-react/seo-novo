@@ -23,14 +23,7 @@ const BlogLatestPost = () => {
     fetchPosts();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="widget mb-50">
-        <h4 className="widget-title">Recent Posts</h4>
-        <p>Carregando...</p>
-      </div>
-    );
-  }
+  if (loading) return <div className="widget"><h4>Carregando posts...</h4></div>;
 
   return (
     <div className="widget mb-50">
@@ -41,6 +34,7 @@ const BlogLatestPost = () => {
           const date = new Date(post.date).toLocaleDateString('en-US', {
             month: 'short',
             day: 'numeric',
+            year: 'numeric',
           });
 
           return (

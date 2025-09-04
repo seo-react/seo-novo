@@ -21,21 +21,14 @@ const BlogTags = () => {
     fetchTags();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="widget mb-50">
-        <h4 className="widget-title">Tags</h4>
-        <p>Carregando...</p>
-      </div>
-    );
-  }
+  if (loading) return <div className="widget"><h4>Carregando tags...</h4></div>;
 
   return (
     <div className="widget mb-50">
       <h4 className="widget-title">Tags</h4>
-      <div className="tagcloud">
+      <div className="tag-cloud">
         {tags.map((tag) => (
-          <Link key={tag.id} href={`/blog?tag=${tag.slug}`} className="tag-cloud-link">
+          <Link key={tag.id} href={`/blog?tag=${tag.slug}`} className="tag-item">
             {tag.name}
           </Link>
         ))}
