@@ -3,8 +3,7 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 
 // Ajuste o caminho abaixo conforme a localização real dos arquivos
-import BlogService from '../../widgets/BlogService';
-import BlogContactBanner from '../../widgets/BlogContactBanner';
+
 
 export default function ServiceDetails({ service }) {
   if (!service) return <p>Serviço não encontrado</p>;
@@ -14,8 +13,6 @@ export default function ServiceDetails({ service }) {
       <div className="container">
         <div className="row">
           <div className="col-xl-4">
-            <BlogService />
-            <BlogContactBanner />
           </div>
           <div className="col-xl-8">
             <div className="service-details-content">
