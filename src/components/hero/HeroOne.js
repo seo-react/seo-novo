@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.png';
+import Image from 'next/image';
 
 const HeroOne = () => {
 
@@ -12,7 +13,7 @@ const HeroOne = () => {
                         <img src="/assets/img/hero/rocket.png" alt="rocket img" />
                     </div>
                     <div className="hero-one__animation-2">
-                        <img src="/assets/img/hero/ranking.png" alt="rocket img" />
+                        <Image src="/assets/img/hero/ranking.png" width={623} height={694} alt="rocket img" />
                     </div>
                     <div className="container-fluid">
                         <div className="row">

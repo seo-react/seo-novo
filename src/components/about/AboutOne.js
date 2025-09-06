@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 
 const AboutOne = () => {
     return (
@@ -91,7 +92,7 @@ const AboutOne = () => {
                                                     </div>
                                                     <div className="col-xxl-6 col-xl-5 col-lg-6 col-md-12 col-sm-12 text-end text-md-center">
                                                         <div className="about-three__single-img">
-                                                            <img src="/assets/img/about/about-3-1.png" alt="about img" />
+                                                            <Image src="/assets/img/about/about-3-1.png" width={510} height={403}alt="about img" />
                                                         </div>
                                                     </div>
                                                 </div>

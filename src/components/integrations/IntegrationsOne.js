@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 const IntegrationsOne = () => {
     return (
@@ -10,7 +11,7 @@ const IntegrationsOne = () => {
                 </div>
                 <div className="integrations-map-one__wrapper">
                     <div className="integrations-map-one__img">
-                        <img src="/assets/img/integrations/map.png" alt="map" />
+                        <Image src="/assets/img/integrations/map.png" width={1920} height={1200} alt="map" />
                     </div>
                     <div className="integrations-map-one__item0 wow fadeInUp" data-wow-delay=".3s">
                         <img src="/assets/img/integrations/star.png" alt="icon" />
