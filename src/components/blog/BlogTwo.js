@@ -10,7 +10,7 @@ const BlogTwo = () => {
       setLoading(true);
       try {
         const res = await fetch(
-          'https://cms.seorocket.com.br/wp-json/wp/v2/posts?per_page=6&_embed'
+          'https://cms.seorocket.com.br/wp-json/wp/v2/posts?per_page=3&_embed'
         );
         if (!res.ok) throw new Error('Erro ao carregar posts');
         const data = await res.json();
