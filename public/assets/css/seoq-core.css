@@ -4458,7 +4458,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 @media (max-width: 767px) {
   .hero-one {
-    height: 700px;
+    height: 740px;
   }
 }
 .hero-one__content h2 {
