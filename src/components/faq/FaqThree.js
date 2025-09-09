@@ -102,7 +102,7 @@ const FaqThree = () => {
                             <div className="faq-three__content wow fadeInRight" data-wow-delay=".5s">
                                 <h2 className="section-title__two-title mb-10">Our Business-Friendly Pricing Solutions.</h2>
                                 <p>Praesent mollis tortor augue, lacinia vestibulum sem cursus sed. Suspendisse quis sapien sed odio dictum fringilla eget eget ligula Duis varius ornare quam, interdum libero elementum bibendum arcu efficitur vehicula.</p>
-                                <Image src="/assets/img/faq/faq-3-1.png" width={504} height={301} alt="faq img" />
+                                <Image src="/assets/img/faq/faq-3-1.png" width={400} height={225} alt="faq img" />
                             </div>
                         </div>
                     </div>
