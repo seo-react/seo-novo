@@ -13,7 +13,13 @@ const HeroOne = () => {
                         <img src="/assets/img/hero/rocket.png" alt="rocket img" />
                     </div>
                     <div className="hero-one__animation-2">
-                        <Image src="/assets/img/hero/ranking.png" width={623} height={694} alt="rocket img" />
+                        <Image
+    src="/assets/img/hero/nova-ranking.png" // substitua pelo caminho da nova imagem
+    alt="ranking atualizado"
+    width={623}
+    height={694}
+    className="w-full h-auto"
+  />
                     </div>
                     <div className="container-fluid">
                         <div className="row">
