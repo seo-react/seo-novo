@@ -1,17 +1,13 @@
 import Head from "next/head";
 
 const SEO = ({ pageTitle }) => (
-    <>
-        <Head>
-            <title>
-                {pageTitle && `SEO Rocket | React Next JS`}
-            </title>
-            <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-            <meta name="description" content="SEOQ - SEO & Digital Marketing Agency React Next JS Template" />
-            <meta name="robots" content="noindex, follow" />
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        </Head>
-    </>
+  <Head>
+    <title>{pageTitle ? `${pageTitle} | SEO Rocket` : 'SEO Rocket | React Next JS'}</title>
+    <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="SEOQ - SEO & Digital Marketing Agency React Next JS Template" />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </Head>
 );
 
 export default SEO;

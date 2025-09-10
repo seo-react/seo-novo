@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const CtaOne = () => {
     return (
@@ -34,7 +35,9 @@ const CtaOne = () => {
                             <div className="row">
                                 <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 text-center">
                                     <div className="cta-main__img">
-                                        <img src="/assets/img/cta/cta-1-1.png" alt="cta img" />
+                                        <Image src="/assets/img/cta/cta-1-1.png"
+  width={900}
+  height={300} alt="cta img" />
                                     </div>
                                 </div>
                                 <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
