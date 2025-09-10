@@ -4,7 +4,7 @@ const SEO = ({ pageTitle }) => (
     <>
         <Head>
             <title>
-                {pageTitle && `${pageTitle} || SEOQ - SEO & Digital Marketing Agency React Next JS Template `}
+                {pageTitle && `SEO Rocket - SEO Agency React Next JS  `}
             </title>
             <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             <meta name="description" content="SEOQ - SEO & Digital Marketing Agency React Next JS Template" />
