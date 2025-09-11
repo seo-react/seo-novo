@@ -10,7 +10,7 @@ const FaqOne = () => {
                     <div className="row">
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
                             <div className="faq-one-img">
-                                <img src="/assets/img/faq.jpg" alt="Faq Page Image" />
+                                <img src="/assets/img/faq/faq.jpg" alt="Faq Page Image" />
                             </div>
                         </div>
                         <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12">
