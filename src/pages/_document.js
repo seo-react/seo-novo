@@ -6,6 +6,8 @@ export default function Document() {
             <Head>
                 {/* Otimizaçao de fonts */}
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+                <link rel="stylesheet" href="/assets/css/fonts-override.css" />
+
 
                 {/* favicons Icons */}
                 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/favicon.png" />
