@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
-import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.png';
+import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.jpg';
 import Image from 'next/image';
 
 const HeroOne = () => {

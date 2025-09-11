@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const SEO = ({ pageTitle }) => (
   <Head>
-    <title>{pageTitle ? `${pageTitle} | SEO Rocket` : 'SEO Rocket | React Next JS'}</title>
+    <title>{pageTitle}</title>
     <meta httpEquiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="SEOQ - SEO & Digital Marketing Agency React Next JS Template" />
     <meta name="robots" content="noindex, follow" />
@@ -11,3 +11,4 @@ const SEO = ({ pageTitle }) => (
 );
 
 export default SEO;
+

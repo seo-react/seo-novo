@@ -13,7 +13,7 @@ import FooterOne from "../common/footer/FooterOne";
 export default function Home() {
 	return (
 		<>
-			<SEO pageTitle={"Home One"} />
+			<SEO pageTitle={"SEO Rocket | React Next JS"} />
 			<HeaderOne />
       		<HeroOne />
 			<AboutOne />

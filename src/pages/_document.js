@@ -4,6 +4,9 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
+                {/* Otimizaçao de fonts */}
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+
                 {/* favicons Icons */}
                 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/favicon.png" />
                 <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
