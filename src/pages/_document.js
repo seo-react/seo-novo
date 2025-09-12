@@ -26,20 +26,22 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
-                <script  src="/assets/js/jquery-3.6.0.min.js"></script>
-                <script src="/assets/js/bootstrap.bundle.min.js"></script>
-                <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-                <script src="/assets/js/isotope.pkgd.min.js"></script>
-                <script src="/assets/js/jquery.appear.min.js"></script>
-                <script src="/assets/js/jquery.countup.min.js"></script>
-                <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-                <script src="/assets/js/jquery.waypoints.min.js"></script>
-                <script src="/assets/js/nice-select.js"></script>
-                <script src="/assets/js/owl.carousel.min.js"></script>
-                <script src="/assets/js/slick.min.js"></script>
-                <script src="/assets/js/swiper-bundle.min.js"></script>
-                <script src="/assets/js/wow.min.js"></script>
-                <script src="/assets/js/main.js"></script>
+                <script src="/assets/js/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/js/isotope.pkgd.min.js"></script>
+<script src="/assets/js/jquery.appear.min.js"></script>
+<script src="/assets/js/jquery.countup.min.js"></script>
+<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="/assets/js/nice-select.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/assets/js/swiper-bundle.min.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+
+<script src="/assets/js/main.js"></script>
+
             </body>
         </Html>
     )

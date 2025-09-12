@@ -21,17 +21,8 @@ const HeaderOne = () => {
                 <div className="header__main-content-wrapper header-padding d-flex align-items-center justify-content-between p-relative">
                   <div className="header__main-left">
                     <div className="header__logo">
-                      <Link href="/" className="logo-dark">
-                        <Image
-                          src="/assets/img/logo/logo.png"
-                          alt="Logo da SEO Rocket"
-                          width={140}
-                          height={40}
-                          priority={true}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                        />
-                      </Link>
-                    </div>
+                                            <Link href="/" className="logo-dark"><img src="/assets/img/logo/logo.png" alt="logo-img" /></Link>
+                                        </div>
                   </div>
                   <div className="main-menu d-none d-xl-block">
                     <nav id="mobile-menu">

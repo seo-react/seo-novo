@@ -4497,6 +4497,7 @@ input[type=search]::-webkit-search-results-decoration {
   .hero-one__content h2 {
     font-size: 30px;
     line-height: 50px;
+    margin-top: 40px;
   }
 }
 .hero-one__content h2 .hero-highlighter-1 {
@@ -6670,7 +6671,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 @media (max-width: 767px) {
   .about-three {
-    margin-top: -150px;
+    margin-top: 20px;
   }
 }
 .about-three .tab-pane.active {
