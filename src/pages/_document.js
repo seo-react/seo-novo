@@ -11,6 +11,8 @@ export default function Document() {
                 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/favicon.png" />
                 <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
 
+                {/* Estilos externos */}
+                <link rel="stylesheet" href="/assets/css/style.css" />
                 <link rel="stylesheet" href="/assets/css/animate.min.css" />
                 <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
                 <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
