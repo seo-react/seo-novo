@@ -85,6 +85,9 @@
 
 .post-img img {
   border-radius: 6px;
+   width: 80px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .post-content h5 {
