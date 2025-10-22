@@ -1,5 +1,5 @@
 import '../styles/globals.css'; // ✅ Importação correta
-import '../public/assets/css/fonts-override.css'; // ✅ Importa fontes com swap
+import '../../public/assets/css/fonts-override.css'; // ✅ Importa fontes com swap
 import React, {useEffect} from 'react';
 import { animationCreate } from "../../utils/utils";
 import ScrollToTop from "react-scroll-to-top";
