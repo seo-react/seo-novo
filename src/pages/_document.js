@@ -4,27 +4,43 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                {/* Otimizaçao de fonts */}
-                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  {/* Otimização de fonts */}
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 
-                {/* favicons Icons */}
-                <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/favicon.png" />
-                <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+  {/* Favicons */}
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/logo/favicon.png" />
+  <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
 
-                {/* Estilos externos */}
-                <link rel="stylesheet" href="/assets/css/style.css" />
-                <link rel="stylesheet" href="/assets/css/animate.min.css" />
-                <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-                <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
-                <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
-                <link rel="stylesheet" href="/assets/css/nice-select.css" />
-                <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-                <link rel="stylesheet" href="/assets/css/slick.css" />
-                <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
-                <link rel="stylesheet" href="/assets/css/seoq-core.css" />
-                <link rel="stylesheet" href="/assets/css/seoq-unit.css" />
-                <link rel="stylesheet" href="/assets/css/seoq-updater.css" />
-            </Head>
+  {/* Estilos externos otimizados */}
+  <link rel="preload" href="/assets/css/style.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/animate.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/fontawesome-all.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/magnific-popup.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/nice-select.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/owl.carousel.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/slick.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/swiper-bundle.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/seoq-core.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/seoq-unit.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/assets/css/seoq-updater.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+
+  {/* Fallback para navegadores sem JS */}
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/animate.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/nice-select.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/slick.css" />
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/seoq-core.css" />
+    <link rel="stylesheet" href="/assets/css/seoq-unit.css" />
+    <link rel="stylesheet" href="/assets/css/seoq-updater.css" />
+  </noscript>
+</Head>
             <body>
                 <Main />
                 <NextScript />
