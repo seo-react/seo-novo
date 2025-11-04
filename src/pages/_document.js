@@ -22,53 +22,19 @@ export default function Document() {
           href="/assets/images/favicons/site.webmanifest"
         />
 
-        {/* Estilos críticos (carregamento imediato) */}
+        {/* Estilos carregados normalmente para garantir estabilidade */}
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/seoq-core.css" />
-
-        {/* Estilos não críticos (adiados) */}
-        {[
-          'style.css',
-          'animate.min.css',
-          'fontawesome-all.min.css',
-          'magnific-popup.css',
-          'nice-select.css',
-          'owl.carousel.min.css',
-          'slick.css',
-          'swiper-bundle.min.css',
-          'seoq-unit.css',
-          'seoq-updater.css',
-        ].map((file) => (
-          <link
-            key={file}
-            rel="stylesheet"
-            href={`/assets/css/${file}`}
-            media="print"
-            onLoad="this.media='all'"
-          />
-        ))}
-
-        {/* Fallback para navegadores sem JS */}
-        <noscript>
-          {[
-            'style.css',
-            'animate.min.css',
-            'fontawesome-all.min.css',
-            'magnific-popup.css',
-            'nice-select.css',
-            'owl.carousel.min.css',
-            'slick.css',
-            'swiper-bundle.min.css',
-            'seoq-unit.css',
-            'seoq-updater.css',
-          ].map((file) => (
-            <link
-              key={file}
-              rel="stylesheet"
-              href={`/assets/css/${file}`}
-            />
-          ))}
-        </noscript>
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/assets/css/slick.css" />
+        <link rel="stylesheet" href="/assets/css/animate.min.css" />
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="/assets/css/nice-select.css" />
+        <link rel="stylesheet" href="/assets/css/seoq-unit.css" />
+        <link rel="stylesheet" href="/assets/css/seoq-updater.css" />
       </Head>
       <body>
         <Main />
