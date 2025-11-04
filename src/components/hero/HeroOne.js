@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import BackgroundOne from '../../../public/assets/img/hero/hero-bg-1.jpg';
 import Image from 'next/image';
+import HeroInput from "@/components/hero/HeroInput"; 
 
 const HeroOne = () => {
 
@@ -33,13 +34,8 @@ const HeroOne = () => {
                                         </span>
                                         <br /> SEO Solution.</h2>
                                     <p>Maecenas egret risks qualm Cohabiter diapaus magna egret vehicular <br /> pellentesque lobortis iaculis felis viverra sit amet.</p>
-                                    <form action="#">
-                                        <div className="hero__input">
-                                            <i className="fa-regular fa-magnifying-glass"></i>
-                                            <input type="text" placeholder="Analyze any website or app" />
-                                            <button type="submit" className="hero-btn-1 rr-btn-style-1">Search</button>
-                                        </div>
-                                    </form>
+                                   <HeroInput />
+
                                     <div className="hero-popular-search">
                                         <span>Popular:</span>
                                         <ul>
